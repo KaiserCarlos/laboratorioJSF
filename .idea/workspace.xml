@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8276fbe2-d399-4f9d-8e4b-20ca40c3f985" name="Changes" comment="LABJSF ahora si que esta bien planteado pero no furrula" />
+    <list default="true" id="8276fbe2-d399-4f9d-8e4b-20ca40c3f985" name="Changes" comment="LABJSF ahora si que esta bien planteado pero no furrula">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,11 +67,14 @@
       <recent name="C:\Users\Admin\IdeaProjects\laboratorioJSF\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Login.xhtml">
+  <component name="RunManager" selected="JavaScript Debug.Pirata.xhtml">
     <configuration name="Login.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/laboratorioJSF/target/laboratorioJSF-1.0-SNAPSHOT/Login.xhtml" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Login.xhtml" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.82" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../Program Files (x86)/Java/jre1.8.0_301">
+    <configuration name="Pirata.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/laboratorioJSF/target/laboratorioJSF-1.0-SNAPSHOT/Pirata.xhtml" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Login.xhtml" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.82" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../Program Files (x86)/Java/jre1.8.0_301">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/Login.xhtml" />
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
@@ -245,14 +251,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.Pirata.xhtml" />
       <item itemvalue="JavaScript Debug.Login.xhtml" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.82" />
       <item itemvalue="Tomcat Server.Login.xhtml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Pirata.xhtml" />
         <item itemvalue="JavaScript Debug.Login.xhtml" />
-        <item itemvalue="Tomcat Server.Login.xhtml" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +273,7 @@
       <updated>1699556452030</updated>
       <workItem from="1699556453049" duration="59000" />
       <workItem from="1699556569693" duration="1145000" />
-      <workItem from="1699603454514" duration="2772000" />
+      <workItem from="1699603454514" duration="3747000" />
     </task>
     <task id="LOCAL-00001" summary="LABJSF ahora si que esta bien planteado pero no furrula">
       <option name="closed" value="true" />
@@ -276,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699606981534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LABJSF ahora si que esta bien planteado pero no furrula">
+      <option name="closed" value="true" />
+      <created>1699607335414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699607335414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

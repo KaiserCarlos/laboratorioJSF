@@ -11,7 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8276fbe2-d399-4f9d-8e4b-20ca40c3f985" name="Changes" comment="LABJSF ahora si que esta bien planteado pero no furrula">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratoriojsf/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratoriojsf/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +31,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KaiserCarlos&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9cdec486-6b23-4120-8e38-d666bba8618d" />
+        <option name="url" value="https://github.com/KaiserCarlos/laboratorioJSF.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -45,29 +64,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/laboratorioJSF/src/main/webapp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/laboratorioJSF/src/main/webapp/WEB-INF",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.1150748",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\IdeaProjects\laboratorioJSF\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Pirata.xhtml">
+  <component name="RunDashboard">
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Login.xhtml">
     <configuration name="Login.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/laboratorioJSF/target/laboratorioJSF-1.0-SNAPSHOT/Login.xhtml" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -75,18 +100,19 @@
       <method v="2" />
     </configuration>
     <configuration name="Login.xhtml" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.82" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../Program Files (x86)/Java/jre1.8.0_301">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/Login.xhtml" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/Login.xhtml" />
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
         <artifact name="laboratorioJSF:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/laboratorioJSF_war" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="86810e09-ef95-4c81-b8ea-76f9d037097b" />
-        <option name="HTTP_PORT" value="8081" />
+        <option name="HTTP_PORT" value="8082" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -167,7 +193,7 @@
       <deployment>
         <artifact name="laboratorioJSF:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/laboratorioJSF_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -258,8 +284,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Pirata.xhtml" />
         <item itemvalue="JavaScript Debug.Login.xhtml" />
+        <item itemvalue="JavaScript Debug.Pirata.xhtml" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +299,10 @@
       <updated>1699556452030</updated>
       <workItem from="1699556453049" duration="59000" />
       <workItem from="1699556569693" duration="1145000" />
-      <workItem from="1699603454514" duration="3747000" />
+      <workItem from="1699603454514" duration="4077000" />
+      <workItem from="1699960548313" duration="3754000" />
+      <workItem from="1700041796013" duration="2199000" />
+      <workItem from="1700044065521" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="LABJSF ahora si que esta bien planteado pero no furrula">
       <option name="closed" value="true" />
@@ -291,11 +320,30 @@
       <option name="project" value="LOCAL" />
       <updated>1699607335414</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LABJSF ahora si que esta bien planteado pero no furrula">
+      <option name="closed" value="true" />
+      <created>1699608326089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699608326089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LABJSF ahora si que esta bien planteado pero no furrula" />
